@@ -4,7 +4,7 @@
 
 - **Name:** Ishika Garg
 - **Registration number:** `202401100100122`
-- **PORT:** `8080` 
+- **PORT:** `8080`
 - **Docker Hub username:** `ishikagarg25`
 - **Docker Hub image:** `https://hub.docker.com/r/ishikagarg25/fest-backend`
 - **GitHub repository:** `https://github.com/<YOUR_GITHUB_USERNAME>/202401100100113-docker-assessment`
@@ -21,17 +21,21 @@ Three-tier FestPass app: Nginx frontend, Flask/Python API, PostgreSQL database. 
 
 Fill this table only with results from your actual Trivy reports.
 
-| Image | CRITICAL | HIGH | Image size | Evidence |
-|---|---:|---:|---:|---|
+| Image              |                CRITICAL |                    HIGH |              Image size | Evidence                   |
+| ------------------ | ----------------------: | ----------------------: | ----------------------: | -------------------------- |
 | `fest-backend:0.1` | **TODO: actual result** | **TODO: actual result** | **TODO: actual result** | `reports/trivy-before.txt` |
-| `fest-backend:0.2` | **TODO: actual result** | **TODO: actual result** | **TODO: actual result** | `reports/trivy-after.txt` |
+| `fest-backend:0.2` | **TODO: actual result** | **TODO: actual result** | **TODO: actual result** | `reports/trivy-after.txt`  |
 
 ## Published image
 
-- `ishikagarg25/fest-backend:1.0.0` digest: **TODO: paste the digest printed by your successful push**
-- `ishikagarg25/fest-backend:1.0` pushed: **TODO: confirm**
-- `1.0.0` signature verified: **TODO: record your actual verification**
-- `1.0.1` unsigned image rejected by `cosign verify`: **TODO: record your actual result**
+- `ishikagarg25/fest-backend:1.0.0` digest:
+  ![Docker Hub push output](screenshots/S4-1.png)
+- `ishikagarg25/fest-backend:1.0` pushed:
+  ![Docker Hub push output](screenshots/S4-2.png)
+- `1.0.0` signature verified:
+  ![Docker Hub push output](screenshots/S5-3.png)
+- `1.0.1` unsigned image rejected by `cosign verify`:
+  ![Docker Hub push output](screenshots/S5-4.png)
 
 ## Evidence screenshots
 
