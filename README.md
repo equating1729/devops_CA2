@@ -7,7 +7,7 @@
 - **PORT:** `8080` 
 - **Docker Hub username:** `ishikagarg25`
 - **Docker Hub image:** `https://hub.docker.com/r/ishikagarg25/fest-backend`
-- **GitHub repository:** `https://github.com/<YOUR_GITHUB_USERNAME>/202401100100113-docker-assessment`
+- **GitHub repository:** `https://github.com/equating1729/202401100100122-docker-assessment`
 
 ## What this repository contains
 
